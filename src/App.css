@@ -52,8 +52,20 @@ input#colorRange, input#BGcolorRange{
   cursor: pointer;
 }
 .outputCSS {
-  max-width: 75%;
+  max-width: 60%;
   padding: 15px;
   background: #212529;
   color: #e5e5e5;
+}
+.outputCSS p{
+  font-size: 0.8rem;
+}
+
+a.bCoffee {
+  background: #e5e5e5;
+  color: #212529;
+  padding: 5px 10px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
 }
